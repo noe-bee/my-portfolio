@@ -1,0 +1,48 @@
+/*CSS variables*/
+:root {
+    --light-grey: #b4b4b4;
+    --dark-grey: #515151;
+    --salmon: #f5c8dc;
+
+}
+/* element selectors */
+body {
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+}
+
+header{
+    outline: 1px solid var(--light-grey);
+}
+
+nav ul{
+    padding-top: 25px;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    font-size: 16px;
+    margin-right: 25px;
+    color:var(--dark-grey)
+    
+}
+
+nav h1{
+    position:fixed;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: black;
+}
+h2 {
+    text-align: center;
+}
+
+/* id selectors */
+#quote {
+    border: 1px solid var(--dark-grey);
+    font-size: 70px;
+    font-style: italic;
+    text-align: center;
+    padding: 50px;
+}
