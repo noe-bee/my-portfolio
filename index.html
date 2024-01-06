@@ -11,53 +11,106 @@
 <body>
     <header>
       <nav>
-        <h1>Portfolio</h1>
+        <h1><em>Noelia Basave's Portfolio</em></h1>
           <ul>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <a href="#about"><li>About</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li></a>
           </ul>
       </nav>
     </header>
 
+
+
 <main>
     <!-- Quote Section -->
-    <section id="quote">
-      <p>The most difficult thing is the decision to act, the rest is merely tenacity -Amelia Earhart</p>
+    <section>
+      <div id="quote">
+
+      <p id="quote-p">The most difficult thing is the decision to act, the rest is merely tenacity
+         <span style="font-style: normal; font-size: 35px;">-Amelia Earhart </span>
+       </p>
     </section>
+      </div>
     <!-- About Section -->
-    <section id="About">
-      <h2>About Me</h2>
+    <section>
+        <div class="clearfix" id="about">
+
+      <h2><em>About Me</em></h2>
+          <img id="selfie" src="./images/selfie.jpeg" alt="a picture of Noelia">
+          <p id="about-p"> Currently residing in California, I am an aspiring full-stack web developer attending the UCLA bootcamp for web development. My goal is to have a solid foundation of web development after graduating the bootcamp so that I may further
+             expand my knowledge for both in my professional and personal life. 
+          </p>
+
+        </div>
     </section>
-    <!-- Projects Section-->
-    <section class="cards-container"> 
-      <h2>Projects</h2>
-      <div class="card">
-        <h3 class="card header"></h3>
+
+    <!-- Projects Section: NOTE: just a thought but maybe i can add a toolkit? that describes the project-->
+    <section id="projects"> 
+
+      <h2><em>Projects</em></h2>
+        <p>Here are all projects I've completed so far. Please click to see the live preview of the project. There's surely more to come!
+        </p>
+      <div class="proj-container"><!--this is the container for all the pics of my projects-->
+      <!--these are the divs for each individual project-->
+      <div class="proj-card"> 
+        <h3 class="proj-card-header">Bootcamp Pre-Work</h3>
+        <figure>
+          <a href="https://noe-bee.github.io/prework-study-guide/">
+            <img id= "first-proj-img" src="./images/prework-studyguide-ss.png" alt="image of my first project: prework-study-guide"></a>
+        </figure>
+      </div>
+      <!--Project 2-->
+      <div class="proj-card">
+          <h3 class="proj-card-header">Landing Page Demo</h3>
+        <figure> 
+          <a href="https://noe-bee.github.io/landing-page-demo/#">
+            <img src="./images/landing-page-ss.png" alt="picture of my second project: landing-page-demo"></a>
+        </figure>
+      </div>
+      <!--Project 3-->
+      <div class="proj-card">
+        <h3 class="proj-card-header">CSS Cheatsheet</h3>
+        <figure>
+          <a href="https://noe-bee.github.io/css-snippet-cheatsheet/">
+            <img src="./images/css-snippet-ss.png" alt="picture of my third project: css-snippet-cheatsheet"></a>
+        </figure>
+      </div>
+      <!--More to Come ..-->
+      <div class="proj-card">
+        <h3 class="proj-card-header">More To Come...</h3>
+          <a href="..."><img src="./images/coming-soon.jpg" alt="image with the words coming soon"></a>
+
+      </div> 
+
 
       </div>
-    <!-- Contact Section -->
-    </section id="Contact">
-
-    <section>
-      <h2>Contact</h2>
     </section>
 
+       <!--Contact Section -->
+    <section>
+      <div id="contact">
 
+        <h2><em>Contact Me!</em></h2>
+        <p> If you would like to get ahold of me, here are the different ways you can reach out!
+        </p>
+        <ul>
+          <a href="https://github.com/noe-bee"><li><em>GitHub:</em>@noe-bee</li></a>
+          <li><em>Email:</em> basave.n49@gmail.com</li>
+          <li><em>LinkedIn:</em> soon to come...</li>
+        </ul>
 
-
-
-
-
-
-
-
-
-
-
+      </div>
+    </section>
 
 
 </main>
+
+  <footer>
+    <p>
+      footer
+    </p>
+  </footer>
     
 </body>
 </html>
