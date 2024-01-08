@@ -24,9 +24,7 @@ body {
 }
 main {
     background-color: var(--cream);
-    /* background-image: url("/Users/noe/bootcamp/challenges/my-portfolio/images/pink-dots.png"); */
-    /* background-size: 150px; */
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -34,6 +32,8 @@ main {
     color: var(--dark-grey);
     border-radius: 10px;
     padding-bottom: 10px;
+    margin-top: 60px;
+    border: 3px dotted var(--salmon);
 }
 
 header{
@@ -176,10 +176,10 @@ li em {
 /* ID selectors */
 #quote {
     padding: 50px;
-    border-left: 3px dotted var(--salmon);
-    border-right: 3px dotted var(--salmon);
     border-bottom: 3px dotted var(--salmon);
     border-radius: 10px;
+    background-image: url("https://64.media.tumblr.com/ba7019169b9e74d54bcf3f3e30f459a1/tumblr_inline_mrhscwzZ7I1qz4rgp.png");
+    background-size: 150px;
     
 }
 
@@ -211,8 +211,6 @@ li em {
 }
 
 #about {
-    border-left: 3px dotted var(--salmon);
-    border-right: 3px dotted var(--salmon);
     border-bottom: 3px dotted var(--salmon);
     border-radius: 10px;
 }
@@ -223,14 +221,9 @@ li em {
     padding: 30px;
 }
 
-#projects {
-    
-}
-
 #contact {
     margin-bottom: 10px;
     border-top: 3px dotted var(--salmon);
-    border-right: 3px dotted var(--salmon);
     border-radius: 10px;
 }
 
