@@ -19,8 +19,6 @@ html {
 body {
     font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
     background-color: var(--salmon); 
-    /* background-image: url("/Users/noe/bootcamp/challenges/my-portfolio/images/pink-dots.png");
-    background-size: 150px; */
 }
 main {
     background-color: var(--cream);
@@ -60,8 +58,6 @@ h2  {
 
 h1{
     flex: 1 0 auto;
-    /* padding-left: 30px; */
-    /* padding-top: 30px; */
     display: inline;
     align-items: flex end;
     font-size: 35px;
@@ -156,8 +152,7 @@ li em {
     min-height: 100%;
     outline: 2px solid var(--salmon);
     text-shadow: 2px 2px 3px var(--salmon);
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 0 30px 30px 30px;
     border-radius: 20px;
 
     
@@ -238,17 +233,40 @@ img:hover,
  {
     opacity: 1;
     transition: all 0.9s ease;
-  }
-
-/* media query */
-@media screen and (min-width: 992px) {
-    #proj-container {
-        flex-basis: 50%;
-  }
 }
 
-@media screen and (max-width: 768px) {
-    #proj-container {
-        flex-basis: 100%;
+/* media query */
+@media screen and (max-width: 992px) {
+    li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 768px) { /*768*/
+    nav {
+        display: inline;
+    }
+    ul {
+        margin-top: 10px;
+    }
+    img,
+    #first-proj-img {
+        width: 50%;
+        height: 50%;
+    }
+    #selfie {
+        width: 25%;
+        height: 25%;
+        margin: auto 10px;
+    }
+    li {
+        display: block;
     }
 } 
+@media screen and (max-width: 432px) {
+    li em{
+        display: block;
+        margin: 5px 0;
+    }
+}
