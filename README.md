@@ -16,7 +16,8 @@ N/A
 
 ## Credits
 
-N/A
+-clearfix hack (css line 136) courtesy of w3 schools! https://www.w3schools.com/cssref/pr_class_float.php <br></br>
+-smooth scroll behavior (css line 14) courtesy of stack overflow https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html
 
 ## License
 

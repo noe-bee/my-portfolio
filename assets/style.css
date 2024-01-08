@@ -243,7 +243,7 @@ img:hover,
     }
 }
 
-@media screen and (max-width: 768px) { /*768*/
+@media screen and (max-width: 768px) {
     nav {
         display: inline;
     }
